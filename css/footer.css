@@ -27,7 +27,12 @@
   text-transform: capitalize;
 }
 
-.footer-help {
+.footer-help a:hover {
+  text-decoration: underline;
+}
+
+.footer-links a:hover {
+  text-decoration: underline;
 }
 
 .newsletter {
@@ -77,4 +82,8 @@
   background-color: #9f9f9f;
   width: 130rem;
   color: #d9d9d9;
+}
+
+footer {
+  margin-bottom: 10rem;
 }
