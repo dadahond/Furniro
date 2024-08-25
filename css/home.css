@@ -1,0 +1,246 @@
+@import "../css/global.css";
+@import "./nav.css";
+@import "./footer.css";
+.hero {
+  background-image: url(../images/home/scandinavian-wall-bg.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 10rem 0;
+}
+
+.discover {
+  background-color: #fff3e3;
+  padding: 6.2rem 5.6rem 3.7rem 3.9rem;
+  max-width: 57rem;
+  width: 100%;
+  border-radius: 8px;
+  position: relative;
+  left: 30rem;
+}
+
+.discover span {
+  text-transform: capitalize;
+  letter-spacing: 3px;
+  font-weight: 500;
+  font-size: 1.6rem;
+}
+
+.discover h2 {
+  text-transform: capitalize;
+  color: #b88e2f;
+  font-size: 5.2rem;
+  line-height: 6.5rem;
+}
+
+.discover p {
+  font-size: 1.8rem;
+  line-height: 2.4rem;
+  padding-bottom: 2rem;
+}
+
+.btn {
+  padding: 1rem 3rem;
+  gap: 1rem;
+  text-transform: uppercase;
+  cursor: pointer;
+  background-color: #b88e2f;
+  border: none;
+  color: #ffff;
+  border-radius: 5px;
+  transition: 0.4s;
+  font-family: "Montserrat";
+}
+
+.btn::before {
+  display: inline-block;
+  font-family: "Font Awesome\ 5 Free";
+  font-weight: 900;
+  content: "\f290";
+  padding-right: 1rem;
+}
+
+.btn:hover {
+  gap: 1rem;
+  background-color: #f4944f;
+  color: #09f31d;
+  border: #fb0303;
+}
+
+.rooms-up {
+  margin-top: 10rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.rooms-up h3 {
+  font-size: 3.2rem;
+  color: #333333;
+  padding-bottom: 1rem;
+  text-transform: capitalize;
+}
+
+.rooms-up p {
+  font-size: 2rem;
+  color: #666666;
+  padding-bottom: 5rem;
+}
+
+.rooms {
+  display: flex;
+}
+
+.dining,
+.living,
+.bedroom {
+  display: flex;
+  flex-direction: column;
+  row-gap: 1rem;
+}
+
+.dining span,
+.living span,
+.bedroom span {
+  font-size: 2.4rem;
+  text-transform: capitalize;
+  color: #333333;
+}
+
+.our-products {
+  margin-top: 10rem;
+  text-align: center;
+  font-size: 4rem;
+  color: #3a3a3a;
+  font-weight: 700;
+  padding-bottom: 2rem;
+}
+
+.products-main {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 3.8rem;
+}
+
+.product {
+  display: flex;
+  flex-direction: column;
+}
+
+.product-top {
+  max-width: 28.5rem;
+  width: 100%;
+}
+
+.sale-label {
+  width: 4.8rem;
+  height: 4.8rem;
+}
+
+.product-bottom h4 {
+  font-size: 2.4rem;
+  color: #3a3a3a;
+  padding-top: 1rem;
+}
+
+.product-bottom p {
+  font-size: 1.6rem;
+  color: #898989;
+  padding: 1rem 0;
+}
+
+.product-bottom span {
+  font-size: 2rem;
+  color: #3a3a3a;
+  font-weight: 600;
+}
+
+.product-bottom {
+  padding: 1.6rem 0 2.2rem 1.6rem;
+  max-width: 28.5rem;
+  width: 100%;
+  background-color: #f4f5f7;
+}
+
+.show-more-btn {
+  margin-top: 3rem;
+  display: flex;
+  padding: 1rem 4rem;
+  color: #b88e2f;
+  font-size: 1.6rem;
+  font-weight: 600;
+  border: 2px solid #b88e2f;
+  background-color: #ffff;
+  cursor: pointer;
+}
+
+.beautiful-rooms {
+  margin-top: 14rem;
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.beautiful-rooms-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.beautiful-rooms-left span {
+  color: #3a3a3a;
+  font-size: 4rem;
+  text-align: left;
+  font-weight: 700;
+}
+
+.beautiful-rooms-left p {
+  font-size: 1.6rem;
+  color: #616161;
+  padding: 1rem 4rem 2rem 0;
+  text-align: left;
+}
+
+.beautiful-rooms img {
+  max-width: 38rem;
+}
+
+.explore-btn {
+  padding: 1rem 3rem;
+  background-color: #b88e2f;
+  color: #ffff;
+  border: none;
+  margin: 0;
+  cursor: pointer;
+  font-weight: 600;
+  font-family: "Montserrat";
+}
+
+.beautiful-rooms-right {
+}
+
+.dots {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  gap: 2rem;
+  margin-top: 3rem;
+}
+
+.dot {
+  width: 1rem;
+  height: 1rem;
+  background-color: #a7a5a5;
+  margin: 0;
+  border-radius: 5rem;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.dot:hover {
+  width: 1.5rem;
+  height: 1.5rem;
+  background-color: #4a4848;
+  border-radius: 5rem;
+}

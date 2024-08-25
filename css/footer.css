@@ -1,0 +1,80 @@
+@import "./global.css";
+.footer-main {
+  display: flex;
+  margin-top: 15rem;
+  justify-content: space-between;
+}
+
+.address {
+  display: flex;
+  flex-direction: column;
+  row-gap: 10rem;
+  font-size: 1.4rem;
+  color: #9f9f9f;
+}
+
+.footer-links,
+.footer-help {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+
+.footer-links a,
+.footer-help a {
+  color: #000;
+  font-size: 1.6rem;
+  text-transform: capitalize;
+}
+
+.footer-help {
+}
+
+.newsletter {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  color: #000;
+  font-size: 1.6rem;
+  text-transform: capitalize;
+}
+
+.email {
+  border: none;
+  border-bottom: 1px solid gray;
+  padding: 0.5rem 1rem 0.5rem 0;
+}
+
+.subscribe {
+  font-family: "Montserrat";
+  font-style: normal;
+  text-transform: capitalize;
+  padding: 1rem 2rem;
+  background-color: #f0d157;
+  border: none;
+  color: #ffff;
+  font-size: 1.6rem;
+  font-weight: 700;
+  letter-spacing: 2px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.subscribe:hover {
+  font-family: "Montserrat";
+  font-style: normal;
+  text-transform: capitalize;
+  padding: 1rem 2rem;
+  background-color: #e19832;
+  border: none;
+  color: #ffff;
+  font-size: 2rem;
+}
+
+.footer-bottom-line {
+  margin: 3rem;
+  height: 1px;
+  background-color: #9f9f9f;
+  width: 130rem;
+  color: #d9d9d9;
+}

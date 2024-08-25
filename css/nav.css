@@ -1,0 +1,71 @@
+@import "./global.css";
+.navigation {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 3rem 0;
+}
+
+.navigation-center {
+  display: flex;
+  align-items: center;
+  gap: 7.5rem;
+  font-size: 1.6rem;
+  text-transform: capitalize;
+  font-weight: 500;
+}
+
+.navigation-center li {
+  position: relative;
+}
+
+.navigation-center a::before {
+  display: inline-block;
+  content: "";
+  width: 0;
+  height: 4px;
+  background-color: rgb(235, 138, 78);
+  position: absolute;
+  bottom: -2px;
+  border-radius: 10px;
+  transition: width 0.4s;
+}
+
+.navigation-center a:hover::before {
+  width: 100%;
+}
+
+.navigation-center a {
+  color: black;
+}
+
+.navigation-right {
+  display: flex;
+  align-items: center;
+  gap: 4.5rem;
+  font-size: 1.6rem;
+  text-transform: capitalize;
+  cursor: pointer;
+}
+
+.icon::before {
+  display: inline-block;
+  font-family: "Font Awesome\ 5 Free";
+  font-weight: 900;
+}
+
+.icon:nth-child(1)::before {
+  content: "\f007";
+}
+
+.icon:nth-child(2)::before {
+  content: "\f002";
+}
+
+.icon:nth-child(3)::before {
+  content: "\f004";
+}
+
+.icon:nth-child(4)::before {
+  content: "\f07a";
+}
