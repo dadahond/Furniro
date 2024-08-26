@@ -18,6 +18,81 @@
   padding-bottom: 9.7rem;
 }
 
+.hero-bottom {
+  display: flex;
+  align-items: center;
+  padding: 2rem 0;
+  background-color: #f9f1e7;
+}
+
+.hero-bottom-left {
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+  font-size: 1.6rem;
+}
+
+.four,
+.two {
+  cursor: pointer;
+  border: none;
+  opacity: 0.6;
+}
+
+.filter {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  border: none;
+  background-color: #f9f1e7;
+}
+
+.filter::before {
+  display: inline-block;
+  font-family: "Font Awesome\ 5 Free";
+  font-weight: 900;
+  content: "\f073";
+}
+
+.four::before {
+  display: inline-block;
+  font-family: "Font Awesome\ 5 Free";
+  font-weight: 900;
+  content: "\f03e";
+}
+
+.two::before {
+  display: inline-block;
+  font-family: "Font Awesome\ 5 Free";
+  font-weight: 900;
+  content: "\f005";
+}
+
+.hero-bottom-right {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  font-size: 1.6rem;
+}
+
+input[type="number"] {
+  width: 4rem;
+  border: none;
+  padding: 2px 3px;
+}
+
+input[type="text"] {
+  width: 8rem;
+  border: none;
+  padding: 2px 5px;
+}
+
+.show {
+}
+
+.number {
+}
+
 .our-products {
   margin-top: 10rem;
   text-align: center;
